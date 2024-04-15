@@ -7,9 +7,9 @@ from win10toast import ToastNotifier
 def send_whatsapp_notification(email_content):
     try:
         # Twilio credentials
-        account_sid = 'AC08dac1484f5054458b2bd3ffdff03d6e'
-        auth_token = '68b90fab2ee96dc1b92f74d57fb61746'
-        twilio_number = 'whatsapp:+14155238886'  # Your Twilio WhatsApp number
+        account_sid = ''
+        auth_token = ''
+        twilio_number = ''  # Your Twilio WhatsApp number
 
         # Initialize Twilio client
         client = Client(account_sid, auth_token)
